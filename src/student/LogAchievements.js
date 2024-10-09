@@ -29,7 +29,7 @@ function LogAchievements() {
       setDescription(''); // Reset description field
 
       // Navigate to View Achievements page with the updated list
-      navigate('/viewachievements', { state: { achievementsList: updatedAchievementsList } });
+      navigate('https://github.com/SadiyaShaik07/jfsdfrontend/viewachievements', { state: { achievementsList: updatedAchievementsList } });
     } else {
       alert('Please select an event and provide a description.');
     }
@@ -46,10 +46,10 @@ function LogAchievements() {
       <header style={styles.navBar}>
         <nav>
           <ul style={styles.navList}>
-            <li style={styles.navItem}><a href="/" style={styles.navLink}>Home</a></li>
-            <li style={styles.navItem}><a href="/about" style={styles.navLink}>About</a></li>
-            <li style={styles.navItem}><a href="/contactus" style={styles.navLink}>Contact</a></li>
-            <li style={styles.navItem}><a href="/" style={styles.navLink}>Logout</a></li>
+            <li style={styles.navItem}><a href="https://github.com/SadiyaShaik07/jfsdfrontend/" style={styles.navLink}>Home</a></li>
+            <li style={styles.navItem}><a href="https://github.com/SadiyaShaik07/jfsdfrontend/about" style={styles.navLink}>About</a></li>
+            <li style={styles.navItem}><a href="https://github.com/SadiyaShaik07/jfsdfrontend/contactus" style={styles.navLink}>Contact</a></li>
+            <li style={styles.navItem}><a href="https://github.com/SadiyaShaik07/jfsdfrontend/" style={styles.navLink}>Logout</a></li>
           </ul>
         </nav>
       </header>

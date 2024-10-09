@@ -5,7 +5,7 @@ function MyComponent() {
     const navigate = useNavigate();
   
     const handleClick = () => {
-      navigate('/about'); // Use navigate to navigate to the login page
+      navigate('https://github.com/SadiyaShaik07/jfsdfrontend/about'); // Use navigate to navigate to the login page
     };
 
     return (
@@ -13,10 +13,10 @@ function MyComponent() {
         <header style={styles.navBar}>
           <nav>
             <ul style={styles.navList}>
-              <li style={styles.navItem}><a href="/" style={styles.navLink}>Home</a></li>
-              <li style={styles.navItem}><a href="/about" style={styles.navLink}>About</a></li>
-              <li style={styles.navItem}><a href="/login" style={styles.navLink}>Login</a></li>
-              <li style={styles.navItem}><a href="/contactus" style={styles.navLink}>Contact</a></li>
+              <li style={styles.navItem}><a href="https://github.com/SadiyaShaik07/jfsdfrontend/" style={styles.navLink}>Home</a></li>
+              <li style={styles.navItem}><a href="https://github.com/SadiyaShaik07/jfsdfrontend/about" style={styles.navLink}>About</a></li>
+              <li style={styles.navItem}><a href="https://github.com/SadiyaShaik07/jfsdfrontend/login" style={styles.navLink}>Login</a></li>
+              <li style={styles.navItem}><a href="https://github.com/SadiyaShaik07/jfsdfrontend/contactus" style={styles.navLink}>Contact</a></li>
             </ul>
           </nav>
         </header>

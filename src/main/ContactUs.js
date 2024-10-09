@@ -161,10 +161,10 @@ function ContactUs() {
       <NavBar>
         <nav>
           <NavList>
-            <NavItem><NavLink href="/">Home</NavLink></NavItem>
-            <NavItem><NavLink href="/about">About</NavLink></NavItem>
-            <NavItem><NavLink href="/login">Login</NavLink></NavItem>
-            <NavItem><NavLink href="/contactus">Contact</NavLink></NavItem>
+            <NavItem><NavLink href="https://github.com/SadiyaShaik07/jfsdfrontend/">Home</NavLink></NavItem>
+            <NavItem><NavLink href="https://github.com/SadiyaShaik07/jfsdfrontend/about">About</NavLink></NavItem>
+            <NavItem><NavLink href="https://github.com/SadiyaShaik07/jfsdfrontend/login">Login</NavLink></NavItem>
+            <NavItem><NavLink href="https://github.com/SadiyaShaik07/jfsdfrontend/contactus">Contact</NavLink></NavItem>
           </NavList>
         </nav>
       </NavBar>

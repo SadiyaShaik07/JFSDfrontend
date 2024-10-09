@@ -122,7 +122,7 @@ function Login() {
     e.preventDefault();
     if (email && password) {
       console.log("Logging in:", email, password);
-      navigate('/studenthome');
+      navigate('https://github.com/SadiyaShaik07/jfsdfrontend/studenthome');
     } else {
       alert("Please enter valid email and password.");
     }
@@ -134,10 +134,10 @@ function Login() {
       <NavBar>
         <nav>
           <NavList>
-            <NavItem><NavLink href="/">Home</NavLink></NavItem>
-            <NavItem><NavLink href="/about">About</NavLink></NavItem>
-            <NavItem><NavLink href="/login">Login</NavLink></NavItem>
-            <NavItem><NavLink href="/contactus">Contact</NavLink></NavItem>
+            <NavItem><NavLink href="https://github.com/SadiyaShaik07/jfsdfrontend/">Home</NavLink></NavItem>
+            <NavItem><NavLink href="https://github.com/SadiyaShaik07/jfsdfrontend/about">About</NavLink></NavItem>
+            <NavItem><NavLink href="https://github.com/SadiyaShaik07/jfsdfrontend/login">Login</NavLink></NavItem>
+            <NavItem><NavLink href="https://github.com/SadiyaShaik07/jfsdfrontend/contactus">Contact</NavLink></NavItem>
           </NavList>
         </nav>
       </NavBar>
@@ -166,8 +166,8 @@ function Login() {
             <Button type="submit">Login</Button>
           </Form>
           <FooterLinks>
-            <Link href="/forgot-password">Forgot Password?</Link>
-            <Link href="/Registration">Signup!</Link>
+            <Link href="https://github.com/SadiyaShaik07/jfsdfrontend/forgot-password">Forgot Password?</Link>
+            <Link href="https://github.com/SadiyaShaik07/jfsdfrontend/Registration">Signup!</Link>
           </FooterLinks>
         </LoginFormSection>
       </LoginContainer>

@@ -5,15 +5,15 @@ function StudentHome() {
   const navigate = useNavigate();
 
   const handleLogAchievement = () => {
-    navigate('/Logachievements'); // Navigate to log achievement page
+    navigate('https://github.com/SadiyaShaik07/jfsdfrontend/Logachievements'); // Navigate to log achievement page
   };
 
   const handleViewAchievements = () => {
-    navigate('/viewachievements'); // Navigate to view achievements page
+    navigate('https://github.com/SadiyaShaik07/jfsdfrontend/viewachievements'); // Navigate to view achievements page
   };
 
   const handleGenerateReport = () => {
-    navigate('/generatereport'); // Navigate to generate report page
+    navigate('https://github.com/SadiyaShaik07/jfsdfrontend/generatereport'); // Navigate to generate report page
   };
 
   return (
@@ -21,10 +21,10 @@ function StudentHome() {
       <header style={styles.navBar}>
         <nav>
           <ul style={styles.navList}>
-            <li style={styles.navItem}><a href="/" style={styles.navLink}>Home</a></li>
-            <li style={styles.navItem}><a href="/about" style={styles.navLink}>About</a></li>
-            <li style={styles.navItem}><a href="/contactus" style={styles.navLink}>Contact</a></li>
-            <li style={styles.navItem}><a href="/" style={styles.navLink}>Logout</a></li>
+            <li style={styles.navItem}><a href="https://github.com/SadiyaShaik07/jfsdfrontend/" style={styles.navLink}>Home</a></li>
+            <li style={styles.navItem}><a href="https://github.com/SadiyaShaik07/jfsdfrontend/about" style={styles.navLink}>About</a></li>
+            <li style={styles.navItem}><a href="https://github.com/SadiyaShaik07/jfsdfrontend/contactus" style={styles.navLink}>Contact</a></li>
+            <li style={styles.navItem}><a href="https://github.com/SadiyaShaik07/jfsdfrontend/" style={styles.navLink}>Logout</a></li>
           </ul>
         </nav>
       </header>
