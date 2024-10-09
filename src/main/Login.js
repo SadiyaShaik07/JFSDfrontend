@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import styled from 'styled-components';
-import Registration from './Registration';
+
 
 // Styled Components for CSS
 const LoginContainer = styled.div`
